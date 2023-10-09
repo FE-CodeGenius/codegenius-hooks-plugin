@@ -1,5 +1,7 @@
 
 
+## [0.1.1](https://github.com/FE-CodeGenius/codegenius-hooks-plugin/compare/0.1.0...0.1.1) (2023-10-09)
+
 ## 0.1.0 (2023-10-08)
 
 
