@@ -24,7 +24,9 @@ const gitInitSimpleHooks = async () => {
 
 const gitInitSimpleHooksInstaller = () => {
   return {
-    name: "gitInitSimpleHooksInstaller",
+    name: "hooks",
+    describe: "新增或修改 simple-git-hooks 配置后需要重新初始化",
+    command: "hooks",
     setup: (cli: CAC) => {
       cli
         .command("hooks", "新增或修改 simple-git-hooks 配置后需要重新初始化")
